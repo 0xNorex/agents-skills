@@ -1,1 +1,4 @@
 .pi-glla/
+__pycache__/
+*.pyc
+*.bak-*
