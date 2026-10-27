@@ -1,11 +1,8 @@
----
-name: design-quality-bar
-description: Set and enforce an award-grade quality bar for a page, site or product-UI deliverable, using the awwwards / Webby / FWA judging dimensions as the reference and a self-check loop to close the gap. Use when the user asks for award-winning, portfolio-grade or 设计感十足 results, or when one-shot generated UI needs a verifiable finish line. Not for small local UI fixes.
----
+# 质量标尺（awwwards / Webby / FWA 评审维度）
 
-# Design quality bar
+用于获奖级、作品集级或「设计感十足」的 UI 交付；小改动不适用。
 
-Turn "make it award-worthy" into scored dimensions, collected evidence, and a loop that stops when the work actually meets the bar.
+把「做得像样」变成可打分的维度、可收集的证据，以及达到标准才停的循环。
 
 ## The bar
 

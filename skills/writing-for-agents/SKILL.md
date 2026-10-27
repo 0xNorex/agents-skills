@@ -1,6 +1,6 @@
 ---
 name: writing-for-agents
-description: "Write or edit agent-facing documentation: skills, AGENTS.md, CLAUDE.md and their references. For skill evaluation or release workflows use yao-meta-skill."
+description: "Write or edit agent-facing documentation: skills, AGENTS.md, CLAUDE.md and their references. For creating or evaluating skills use skill-creator."
 ---
 
 # Writing for agents
