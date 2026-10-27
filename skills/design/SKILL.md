@@ -7,6 +7,8 @@ description: Design or redesign frontend pages and product UI, including motion 
 
 Match the user's audience, brand, references and existing stack. For a redesign, preserve working routes, content, analytics and accessibility unless the requested change includes them. Ask only when preserve vs overhaul is genuinely unclear.
 
+When the ask is award-grade, portfolio-grade or "设计感十足", read [Quality bar](references/quality-bar.md): scored dimensions against awwwards / Webby / FWA criteria plus the self-check loop that stops once the work actually meets them.
+
 ## Design direction gate
 
 Do not start from vague requests such as “make it beautiful”, “premium” or “more modern”. Those are outcomes, not design decisions. For a greenfield page, a visual overhaul, or an explicit request for a more distinctive look, run a short design-direction interview before changing UI.
