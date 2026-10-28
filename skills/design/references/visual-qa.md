@@ -14,6 +14,15 @@ View the resulting screenshots, not just their file names. Capture a representat
 
 ## Inspect
 
+Run the deterministic pass first, then look at the screenshots:
+
+```bash
+npx -y impeccable@4.8.0 detect <src-dir>   # exit 2 = findings, 0 = clean
+```
+
+Fix what it reports and re-run. A source-dir scan only covers text-level rules (spacing, borders, shadows, typography); for contrast, font size and overflow scan the running page instead — `detect http://localhost:PORT`, desktop and narrow viewport — while the dev server is up. The same finding can print twice; dedupe with `--json`. If npx or the network is unavailable, name the check you skipped; never imply it passed.
+
+Then, on the screenshots:
 - Requested layout and content match the brief and closest reference page.
 - Text, controls and images are not clipped, overlapping or unexpectedly overflowing.
 - Contrast, labels, focus and action hierarchy remain clear.
