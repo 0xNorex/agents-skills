@@ -5,3 +5,4 @@ __pycache__/
 
 .skill-backup-*/
 .skill-lock.json.backup
+skills/dougan-video-script

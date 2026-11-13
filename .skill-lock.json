@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "skills": {
+    "gemini-frontend-design": {
+      "source": "google-gemini/demolab",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/google-gemini/demolab.git",
+      "skillPath": "skills/gemini-frontend-design/SKILL.md",
+      "skillFolderHash": "f7bc01bee43b2fc33251eb2dbf72d513e58cec70",
+      "installedAt": "2026-11-11T05:09:03.497Z",
+      "updatedAt": "2026-11-11T05:09:03.497Z"
+    }
+  },
+  "dismissed": {}
+}
