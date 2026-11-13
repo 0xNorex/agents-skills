@@ -7,13 +7,13 @@
 - 不知道就写「不确定」，不加免责声明、不 hedging。
 
 ## 执行
+- 最小改动原则：禁未要求的抽象、配置与顺手重构。
 - 同一错误 2 次即停，报事实；禁止换个写法重试第三次。
 - 版本 / API / 报错先检索再写；不确定的签名先查文档或 describeTool，禁止凭记忆编参数。
-- 第三方 SDK/CLI 的参数与报错先查官方文档；不翻 node_modules / venv 源码，除非证实是上游 bug。
+- 第三方 SDK/CLI 先查官方文档；不翻 node_modules / venv 源码，除非证实是上游 bug。
 - 单向门（删数据 / force push / 线上配置 / 重大架构 / 产品方向）和「≥2 种合理解释」先确认；其余自决。
 - Python 默认 `uv`；密钥不进输出与提交；提交用英文 Conventional Commits，≤72 字符。
 
 ## 交付
 - 不新建测试文件；自检用一次性命令。
 - 给不出可复跑验证命令就标「未验」；派得出 reviewer/oracle 就不许标「未验」。
-- 派 subagent 时只写自包含 spec（可 copy-paste 命令 + `file:line`），返工重派。
